@@ -29,4 +29,17 @@ You should see the notebook and data in the work directory.
 
 Open and run the notebook.
 
-To just run the docker image on DockerHub, skip the docker build step and use 'jacks9/jupyter-scipy-geo-notebook:latest' as the image name in the docker run step. You will still want to get the notebook and data from GitHub to test it. Or you can skip that, too, and upload or create your own notebook (and data).
+To just run the docker image as is  on DockerHub
+---
+* Skip the docker build step 
+* Use 'jacks9/jupyter-scipy-geo-notebook:latest' as the image name in the docker run step. 
+
+You may still want to get the notebook and data from GitHub to test it. But you can skip that, too, and just upload or create your own notebook (and data).
+
+To install Docker on your machine, go here:
+---
+https://docs.docker.com
+
+To join DockerHub, go here:
+---
+https://hub.docker.com
