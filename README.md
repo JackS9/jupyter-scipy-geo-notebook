@@ -10,7 +10,8 @@ To rebuild the docker image:
 ```
 mkdir <my_docker_project>
 cd <my_docker_project>
-git clone https://github.com/jacks9/jupyer-scipy-geo-notebook.git .
+git clone https://github.com/jacks9/jupyter-scipy-geo-notebook.git .
+cd jupyter-scipy-geo-notebook
 docker build -t <your_hub_id>/jupyter-scipy-geo-notebook:<your_tag> .
 ```
 
@@ -21,3 +22,7 @@ docker run -p 80:8888 -v $PWD:/home/jovyan/work <your_hub_id>/jupyter-scipy-geo-
 ```
 
 Then enter the URL displayed (including token) in your browser (using 'localhost' as the IP address).
+
+You should see the notebook and data in the work directory.  
+
+Open and run the notebook.
