@@ -1,1 +1,1 @@
-docker run -p 80:8888 -v /Users/jacksmith/jupyter-notebook:/home/jovyan/work jacks9/jupyter-scipy-geo-notebook
+docker run -p 80:8888 -v $PWD:/home/jovyan/work jacks9/jupyter-scipy-geo-notebook
