@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JackS9/jupyter-scipy-geo-notebook.git/master?filepath=notebooks%2FGreenup_transects.ipynb)
-
 # jupyter-scipy-geo-notebook
 
 This is the Dockerfile and requirements.txt file used to create jacks9/jupyter-scipy-geo-notebook on DockerHub
@@ -50,3 +48,8 @@ https://docs.docker.com
 To join DockerHub, go here:
 ---
 https://hub.docker.com
+
+To build and run on MyBinder, just click the button below:
+---
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JackS9/jupyter-scipy-geo-notebook.git/master?filepath=notebooks%2FGreenup_transects.ipynb)
+
