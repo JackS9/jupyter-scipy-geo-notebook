@@ -1,0 +1,2 @@
+docker exec -it -u 0 sharp_euclid /bin/bash
+

@@ -1,2 +1,7 @@
 geopandas
+descartes
 folium
+geoalchemy2
+pymysql
+mysqlclient
+psycopg2
